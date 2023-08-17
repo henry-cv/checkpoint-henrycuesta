@@ -1,0 +1,47 @@
+10006  mkdir checkpoint-henrycuesta
+10007  cd checkpoint-henrycuesta
+10008  git init
+10009  git branch -M main
+10010  git config user.name "henry-cv"
+10011  git config user.email "thechosenone.cc@gmail.com"
+10012  clear
+10013  git remote add https://github.com/henry-cv/checkpoint-henrycuesta.git
+10014  git remote add origin https://github.com/henry-cv/checkpoint-henrycuesta.git
+10015  git push -u origin main
+10016  clear
+10017  git remote -v
+10018  clear
+10019  touch main.js index.html
+10020  git add .
+10021  git satus
+10022  git status
+10023  clear
+10024  git commit -m "commit 01 de HenryCuesta"
+10025  git status
+10026  git log --oneline
+10027  git status
+10028  git push -u origin main
+10029  git status
+10030  clear
+10031  git checkout -b feature
+10032  mkdir Hardware Software SeguridadInformatica
+10033  ls -l
+10034  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+10035  ls -l
+10036  clear
+10037  ls -lR
+10038  clear
+10039  ls -lR
+10040  history >> ~/Escritorio/DH_temp/tarea_git_historial.txt
+10041  git add .
+10042  git status
+10043  git commit -m "commit 02 de HenryCuesta, creada rama feature con archivos"
+10044  git push -u origin feature
+10045  git checkout main
+10046  clear
+10047  mv main.js resumenHardware.txt
+10048  mv index.html resumenSoftware.txt
+10049  ls -l
+10050  nano resumenSoftware.txt
+10051  nano resumenHardware.txt
+

@@ -1,0 +1,4 @@
+Ejemplos de Software:
+1. Google Chrome
+2. Microsoft Word
+3. Visual Studio Code
