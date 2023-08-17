@@ -44,4 +44,27 @@
 10049  ls -l
 10050  nano resumenSoftware.txt
 10051  nano resumenHardware.txt
-
+10052  history -n 30 > comandos.txt
+10053  cat comandos.txt
+10054  vim comandos.txt
+10055  history |tail -30 > comandos.txt
+10056  cat comandos.txt
+10057  history |tail -50 > comandos.txt
+10058  cat comandos.txt
+10059  history |tail -55 > comandos.txt
+10060  cat comandos.txt
+10061  vim comandos.txt
+10062  git add .
+10063  git status
+10064  git commit -m "commit 03 de HenryCuesta"
+10065  git push
+10066  git pull
+10067  git diff
+10068  git pull origin main
+10069  gst
+10070  git config pull.rebase false
+10071  git pull origin main
+10072  gst #Es un alias de "git status" de ohmyzsh
+10073  git status
+10074  git push
+10075  git status
